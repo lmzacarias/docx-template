@@ -22,7 +22,7 @@
     "url": "git+https://github.com/guigrpa/docx-templates.git"
   },
   "scripts": {
-    "start": "node . template.docx output.docx"
+    "start": "node . input.docx output.docx"
   },
   "dependencies": {
     "docx-templates": "*",

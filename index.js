@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const template = fs.readFileSync(process.argv[2])
 const photox = fs.readFileSync('idukay-logo-240.png');
+const logo =fs.readFileSync('logo.jpg');
 
 createReport({
   template,
@@ -23,8 +24,10 @@ createReport({
   },
   additionalJsContext: {
     title: async (size = 3) => {
-
       return { width: size, height: size, data: photox, extension: '.png' };
+    },
+    title2: async (size = 3) => {
+      return { width: size, height: size, data: logo, extension: '.jpg' };
     }
   },
   cmdDelimiter: ['{', '}']
