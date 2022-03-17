@@ -141,44 +141,49 @@ createReport({
         cargo1: 'Mutante Omega-2',
         cargo2: 'Profesor de motociclismo-2'
       },
+    ],
+    items: [
       {
-        school: 'Xavier High School-2',
-        year: '2013-2014-2',
-        day: 'Vespertina-2',
-        name: 'CASSIDY BANSHEE SEAN-2',
-        paralelo: 'SEGUNDO DE BÁSICA DE BÁSICA ELEMENTAL 2B-A-2',
-        date: 'Quito, 3 de febrero de 2015-2',
-        firma1: 'Jean Gray-2',
-        firma2: 'Jean Gray-2',
-        cargo1: 'Mutante Omega-2',
-        cargo2: 'Profesor de motociclismo-2'
+        product: {
+          name: 'Monitor',
+          price: 99
+        },
+        quantity: 10,
+        cost: 990
       },
       {
-        school: 'Xavier High School-2',
-        year: '2013-2014-2',
-        day: 'Vespertina-2',
-        name: 'CASSIDY BANSHEE SEAN-2',
-        paralelo: 'SEGUNDO DE BÁSICA DE BÁSICA ELEMENTAL 2B-A-2',
-        date: 'Quito, 3 de febrero de 2015-2',
-        firma1: 'Jean Gray-2',
-        firma2: 'Jean Gray-2',
-        cargo1: 'Mutante Omega-2',
-        cargo2: 'Profesor de motociclismo-2'
+        product: {
+          name: 'Monitor',
+          price: 99
+        },
+        quantity: 10,
+        cost: 990
       },
       {
-        school: 'Xavier High School-2',
-        year: '2013-2014-2',
-        day: 'Vespertina-2',
-        name: 'CASSIDY BANSHEE SEAN-2',
-        paralelo: 'SEGUNDO DE BÁSICA DE BÁSICA ELEMENTAL 2B-A-2',
-        date: 'Quito, 3 de febrero de 2015-2',
-        firma1: 'Jean Gray-2',
-        firma2: 'Jean Gray-2',
-        cargo1: 'Mutante Omega-2',
-        cargo2: 'Profesor de motociclismo-2'
+        product: {
+          name: 'Monitor',
+          price: 99
+        },
+        quantity: 10,
+        cost: 990
+      },
+      {
+        product: {
+          name: 'Monitor',
+          price: 99
+        },
+        quantity: 10,
+        cost: 990
+      },
+       {
+        product: {
+          name: 'Monitor',
+          price: 99
+        },
+        quantity: 10,
+        cost: 990
       }
     ]
-
   },
   additionalJsContext: {
     title: async (size = 3) => {
