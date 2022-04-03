@@ -28,6 +28,7 @@
     "docx-templates": "*",
     "isomorphic-fetch": "2.2.1",
     "prettier": "^1.18.2",
+    "request": "^2.88.2",
     "yaqrcode": "^0.2.1"
   }
 }
