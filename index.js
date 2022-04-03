@@ -7,6 +7,7 @@ const logo = fs.readFileSync('logo.jpg');
 
 async function main() {
   const data = data_temp;
+  console.log("✅ - data", data)
   const doc = await createReport({
     template,
     data: {
