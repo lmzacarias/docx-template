@@ -20,7 +20,7 @@ const main = () => {
     },
     cmdDelimiter: ['{', '}'],
   });
-  fs.writeFileSync(process.argv.length > 1 ? process.argv[3] : null, doc);
+  fs.writeFileSync(process.argv.length > 3 ? process.argv[3] : null, doc);
 }
 
 main();
